@@ -14,7 +14,7 @@ function Features() {
         title="Build your resume"
         description="Our streamlined process helps your create a professional resume in minutes with intelligent AI-powered tools and features."
       />
-      <div className="flex items-center gap-2 text-sm text-green-800 bg-green-400/10 border border-green-200 rounded-full px-4 py-1 mt-5">
+      <div className="flex items-center gap-2 text-sm text-violet-800 bg-violet-400/10 border border-violet-200 rounded-full px-4 py-1 mt-5">
         <Zap width={14} />
         <span>Simple Process</span>
       </div>
