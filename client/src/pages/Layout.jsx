@@ -1,11 +1,11 @@
 import { Outlet } from "react-router";
+import NavBar from "../components/NavBar";
 
 function Layout() {
     return ( 
         <div>
-            <h1>Layout</h1>
-
-            <div className="bg-[red]">
+            <div className="min-h-screen bg-gray-50">
+                <NavBar />
                 <Outlet />
             </div>
         </div>
